@@ -103,7 +103,7 @@ function createCard(obj) {
   let profile = document.createElement('p');
   profile.textContent = 'Profile: ';
   let profileLink = document.createElement('a');
-  profileLink.textContent = ' web address to users page';
+  profileLink.textContent = ' Link to users page';
   profileLink.setAttribute('href', obj.html_url);
   profile.appendChild(profileLink);
   //followers
