@@ -108,8 +108,8 @@ function createCard(obj) {
   profile.appendChild(profileLink);
   //followers
   let followers = document.createElement('p');
-  followers.textContent = `Following: ${obj.following}`;
-  info.appendChild(following);
+  followers.textContent = `Following: ${obj.followers}`;
+  info.appendChild(followers);
   //bio
   let bio = document.createElement('p');
   bio.textContent = obj.bio;
